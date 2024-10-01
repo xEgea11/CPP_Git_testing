@@ -1,0 +1,20 @@
+-   Compile with -Wall -Wextra -Werror and -std=c++98
+-   Class names in UpperCamelCase
+-   Files will be named according to the class names    -->    ClassName.hpp / ClassName.h,     ClassName.cpp,      ClassName.tpp
+-   C++11 and Boost libraries are forbidden
+-   *printf(), *alloc() and free() are forbidden-   "using namespace <ns_name>" and "friend" keywords are forbidden
+-   No STL until Modules 08 and 09 
+-   When using "new" keyword, leakages are possible. Ensure that there are none 
+-   From module 02 to 09, classes must be designed in the "Orthodox Canonical Form", except when explicitely stated otherwise
+-   No function implementation in the header file 
+-   Avoid double inclusion with "include guards" 
+
+- (From cpp02)
+From now on, all your classes must be designed in the Orthodox Canonical Form,
+unless explicitely stated otherwise. Then, they will implement the four required member
+functions below:
+• Default constructor
+• Copy constructor
+• Copy assignment operator
+• Destructor
+
